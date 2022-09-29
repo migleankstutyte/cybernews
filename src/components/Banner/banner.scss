@@ -1,0 +1,83 @@
+@import "../../styles/colors.scss";
+
+.banner {
+  background-color: $black;
+  color: $white;
+  padding: 56px 0px 40px 0px;
+
+  .text {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    margin: 0px 0px 10px;
+
+    &--small {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 22px;
+    }
+  }
+
+  .actions {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    font-weight: 700;
+    margin: 24px 0px;
+
+    &__element {
+      font-weight: 700;
+      border: none;
+      position: relative;
+      input {
+        height: 46px;
+        width: 507px;
+        font-size: 20px;
+        font-weight: 700;
+        padding: 0px 50px 0px 20px;
+      }
+
+      button {
+        position: absolute;
+        top: 12px;
+        right: 10px;
+        border: none;
+        background: initial;
+        cursor: pointer;
+      }
+
+      &--button {
+        background-color: $green;
+        color: $white;
+        cursor: pointer;
+
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+
+  .options {
+    display: flex;
+    justify-content: center;
+
+    &__option {
+      display: flex;
+      margin-right: 25px;
+
+      &:last-of-type {
+        margin-right: 0px;
+      }
+
+      input {
+      }
+
+      label {
+        font-size: 12px;
+        line-height: 22px;
+        margin-left: 5px;
+      }
+    }
+  }
+}

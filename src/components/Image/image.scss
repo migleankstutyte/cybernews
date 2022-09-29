@@ -1,0 +1,10 @@
+.image {
+  flex: 1;
+  img {
+    display: flex;
+
+    &.right {
+      margin-left: auto;
+    }
+  }
+}

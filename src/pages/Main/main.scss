@@ -1,0 +1,24 @@
+.main {
+  text-align: center;
+
+  .info {
+    color: lightGrey;
+    margin: 24px 0px;
+    font-size: 12px;
+    &--bold {
+      font-weight: 700;
+    }
+  }
+
+  .wrapper {
+    margin: 0px 140px;
+
+    section {
+      margin-bottom: 80px;
+    }
+
+    .section {
+      display: flex;
+    }
+  }
+}

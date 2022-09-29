@@ -1,0 +1,9 @@
+@import "../../styles/colors.scss";
+
+.header {
+  display: flex;
+  align-items: center;
+  background-color: $grey;
+  height: 70px;
+  padding: 0px 140px;
+}
